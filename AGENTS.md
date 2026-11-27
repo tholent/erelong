@@ -10,6 +10,7 @@ None yet. The owner sets one; agents do not invent it.
 
 ## Where things live
 - `STATUS.md` — where we are right now. Short. Update it at the end of each session.
+- `docs/decisions/` — decision records (ADRs), in ADR+; `INDEX.md` lists them.
 - `docs/rules/` — the lists some rules below keep: `task-homes.md`, `hot-files.md`, `tool-traps.md`.
 
 ## Ground rules

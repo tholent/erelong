@@ -10,17 +10,17 @@ The project's live state. Update it when work lands. Every claim cites at least 
 
 ## Next
 
-- Put the first decision on record: how this project is set up, and its decision format (`AGENTS.md`).
+- Ratify ADR-001, how this project is set up for agents (`docs/decisions/ADR-001-pitmaster-conventions.md`).
 - Write the one-line description of what erelong is (`AGENTS.md`, `README.md`).
 
 ## Known debt
 
-- The first decision is not on record yet (`AGENTS.md`).
+- ADR-001 is proposed, not yet ratified (`docs/decisions/ADR-001-pitmaster-conventions.md`).
 - The project has no description or doctrine yet (`AGENTS.md`).
 
 ## Log
 
-- 2026-11-27: prepared with project-prep.
+- 2026-11-27: prepared with project-prep; ADR-001 drafted with makeadr.
 
 ## How this file is kept
 
