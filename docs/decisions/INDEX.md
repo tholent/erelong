@@ -6,3 +6,7 @@ change the ADR and run the script again. An ADR's own header outranks this table
 | ADR | Decision | Kind | Status | Built |
 |---|---|---|---|---|
 | [ADR-001](ADR-001-pitmaster-conventions.md) | erelong is set up for agents with pitmaster's conventions: AGENTS.md with all six rule groups, and STATUS.md | process | accepted | landed |
+| [ADR-002](ADR-002-stack-and-build-new.md) | erelong is built new on Python/FastAPI and a SvelteKit PWA, shipped as one Docker image, milestone by milestone | architecture | proposed | not started |
+| [ADR-003](ADR-003-napkins-out-of-git.md) | Napkins and family interview records stay out of git, and nothing personal from them enters the public repository | process | proposed | landed |
+| [ADR-004](ADR-004-doctrine-design-principles.md) | erelong's doctrine is the design spec's eight principles, P1 to P8 | design | proposed | not started |
+| [ADR-005](ADR-005-work-on-main-below-v1.md) | Until v1.0.0, agents work and push straight on main; branches and PRs begin at the M5 public release | process | proposed | not started |

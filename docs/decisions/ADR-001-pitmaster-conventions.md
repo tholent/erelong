@@ -14,6 +14,8 @@ amends: nothing
 
 ## Decision
 
+> 2026-11-27: the ground rule "Work on a branch" this set up is relaxed until v1.0.0 by ADR-005.
+
 erelong uses pitmaster's conventions for working with agents. Every agent reads `AGENTS.md` first in every session
 (`CLAUDE.md` is one line, `@AGENTS.md`, so Claude Code loads it too). Its Rules section has all six of pitmaster's
 rule groups switched on: plan, run, check, records, plain and craft, 30 rules copied from the catalogue dated
@@ -52,3 +54,20 @@ repository. It does not decide anything about erelong's own code.
 
 - 2026-11-27: drafted by makeadr (light route) from Chris Wells's answers, right after the project-prep setup.
 - 2026-11-27: ratified by Chris Wells. Earlier values: `status: proposed`; `status-note: drafted 2026-11-27 from the user's answers; awaiting ratification`.
+- 2026-11-27: amended (see the amendment below), answering the two asks left open. ADR-005 also amends this
+  ADR's Decision, relaxing the "Work on a branch" ground rule until v1.0.0.
+
+## Amendment — 2026-11-27, Chris Wells
+
+Touches: Consequences and Asks left open. Agreed by Chris Wells in the napkin bbq
+(`docs/bbq/2026-11-27-napkin-design-spec.md`, Q13 and Q14).
+
+1. **Ask 1, the glossary:** add the glossary piece. `docs/glossary.md` starts empty, and terms are filed one at a
+   time on Chris Wells's yes, as the plain-words rule says (Q13).
+2. **Ask 2, the craft rules:** switch off the two hardware rules, "Name milestones as numbered rungs; reach each
+   in the emulator before real hardware." and "Take hardware values and protocol rules from the datasheet or spec
+   section, never from memory." The other five craft rules stay on (Q14). The reason: erelong has no hardware.
+   It is a web app in Docker, and a Raspberry Pi is only a host. The recommendation to keep all seven was
+   overruled.
+
+So the Rules section of `AGENTS.md` holds 28 rules, not 30.
