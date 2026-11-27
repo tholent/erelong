@@ -3,15 +3,26 @@
 Read this first, every session. Every agent reads this file; `CLAUDE.md` points here.
 
 ## What this project is
-Not described yet. Chris Wells gives the one-line description; agents do not invent it.
+A self-hosted, ADHD-friendly kanban planner for households, with weighted nudges instead of nagging.
 
 ## Doctrine
-None yet. The owner sets one; agents do not invent it.
+Weigh every option against these eight principles; the one that serves them best wins (ADR-004).
+- P1 Visible, but limited: work stays on screen; a Today view shows only what matters now.
+- P2 Signal, don't nag.
+- P3 Everything goes both ways: anyone can nudge anyone.
+- P4 Interruptions are rare: a strict notification budget; urgent alerts look different.
+- P5 Reward right away: finishing a card gives an immediate, visible payoff.
+- P6 Plans become actions: goals carry if-then plans.
+- P7 Match certainty to time: detail for this week, broad themes for next year.
+- P8 API-first: the project's own clients use only the public API.
 
 ## Where things live
 - `STATUS.md` — where we are right now. Short. Update it at the end of each session.
 - `docs/decisions/` — decision records (ADRs), in ADR+; `INDEX.md` lists them.
 - `docs/rules/` — the lists some rules below keep: `task-homes.md`, `hot-files.md`, `tool-traps.md`.
+- `docs/glossary.md` — erelong's own terms, filed one at a time on Chris Wells's yes.
+- `docs/bbq/` — question records (bbq). Family interview records never go here: they stay in `napkins/`,
+  which is out of git (ADR-003).
 
 ## Ground rules
 - The repository is the only shared memory between sessions, agents and accounts.
@@ -19,6 +30,8 @@ None yet. The owner sets one; agents do not invent it.
 - Decisions: never edit a ruled decision's text. Add a dated amendment, or supersede it with a new one. Follow the
   active decision; superseded ones are history only.
 - Work on a branch. Never push straight to the main branch without Chris Wells's approval.
+  Until v1.0.0 (the M5 public release), that approval stands: work and push straight on main (ADR-005).
+- Nothing from `napkins/` is committed, and nothing personal from it enters this public repository (ADR-003).
 - Keep `docs/` tidy: no loose dated files at its top level.
 
 <!-- pitmaster rules: plan, run, check, records, plain, craft · catalogue 2026-10-23 · project-prep rewrites everything down to the end line -->
@@ -63,6 +76,4 @@ None yet. The owner sets one; agents do not invent it.
 - When only comments change, check the built files are byte-identical.
 - Turn a future danger into a build error wherever you can.
 - Land a new feature switched off behind a flag, tested, until the owner approves how it looks.
-- Name milestones as numbered rungs; reach each in the emulator before real hardware.
-- Take hardware values and protocol rules from the datasheet or spec section, never from memory.
 <!-- pitmaster rules: end -->

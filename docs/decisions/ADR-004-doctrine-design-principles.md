@@ -1,10 +1,12 @@
 ---
-status: proposed
-status-note: drafted 2026-11-27 from the user's answers; awaiting ratification
+status: accepted
+status-note: ratified by Chris Wells on 2026-11-27
+ratified-by: Chris Wells
+ratified-on: "2026-11-27"
 owner: Chris Wells
 kind: design
-built: not started
-proof: queued in this session, after ratification, for the Doctrine section of `AGENTS.md`
+built: landed
+proof: "`AGENTS.md`"
 supersedes: nothing
 amends: nothing
 consulted: Claude, in the brainstorm session that wrote the v0.2 design spec
@@ -60,3 +62,5 @@ Drivers:
 ## History
 
 - 2026-11-27: drafted by makeadr (light route) from Chris Wells's answer to bbq Q8.
+- 2026-11-27: ratified by Chris Wells. Earlier values: `status: proposed`; `status-note: drafted 2026-11-27 from the user's answers; awaiting ratification`.
+- 2026-11-27: built in `AGENTS.md`. Earlier values: `built: not started`; `proof: queued in this session, after ratification, for the Doctrine section of `AGENTS.md``.

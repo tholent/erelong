@@ -58,7 +58,7 @@ them unless the v0.3 napkin changes them.
 
 - Self-hosted Docker image first; possible open-source release later; Apache-2.0 (lines 7–8, D3 line 363).
 - The API is a first-class product; the project's own web app uses only the public API (lines 22, 72, 256).
-- Phone first; respect the teens' autonomy, no monitoring (lines 35–37, 53).
+- Phone first; respect every member's autonomy, no monitoring (lines 35–37, 53).
 - Non-goals for v1: business features, Gantt dependencies, monitoring, native apps, multi-tenant SaaS, E2EE,
   leaderboards (lines 51–57).
 - Everything is a Card; entities as in §5.1 (lines 78–108); card types task, trip and goal (lines 112–116);

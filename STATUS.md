@@ -6,19 +6,29 @@ The project's live state. Update it when work lands. Every claim cites at least 
 
 ## Now
 
-- Project prepared for agents with project-prep: the rules are in `AGENTS.md`, their lists in `docs/rules/`; the setup is ruled in ADR-001 (`docs/decisions/ADR-001-pitmaster-conventions.md`).
+- Design settled, nothing built: the stack and the build order are ruled in ADR-002
+  (`docs/decisions/ADR-002-stack-and-build-new.md`), and the doctrine P1–P8 in ADR-004 (`AGENTS.md`, Doctrine).
+- No build starts before the family interviews (`docs/bbq/2026-11-27-napkin-design-spec.md`, Q5).
+- Work goes straight on main until v1.0.0 (`docs/decisions/ADR-005-work-on-main-below-v1.md`).
+- The design spec lives in `napkins/`, out of git, since this repository is public (`.gitignore`,
+  `docs/decisions/ADR-003-napkins-out-of-git.md`).
 
 ## Next
 
-- Settle ADR-001's two open asks: the glossary, and which craft rules fit (`docs/decisions/ADR-001-pitmaster-conventions.md`).
-- Write the one-line description of what erelong is (`AGENTS.md`, `README.md`).
+- Chris Wells runs a free-form bbq with each family member on Trello keep/drop, what each wants it for, and nudges
+  and notifications. The records go to `napkins/interviews/` (`docs/bbq/2026-11-27-napkin-design-spec.md`, Q9–Q11, Q15).
+- Fold the interviews into a v0.3 napkin, then run `napkin` on it to plan M0 (`docs/bbq/2026-11-27-napkin-design-spec.md`, Kickoff).
 
 ## Known debt
 
-- The project has no description or doctrine yet (`AGENTS.md`).
+- Docker is not installed on the dev machine, and M0 needs it (measured 2026-11-27; `docs/decisions/ADR-002-stack-and-build-new.md`, Consequences).
+- The two hardware craft rules were removed by hand inside the project-prep block, so a later project-prep run
+  could put them back; check `AGENTS.md` after one (`docs/decisions/ADR-001-pitmaster-conventions.md`, Amendment).
 
 ## Log
 
+- 2026-11-27: napkin bbq on the v0.2 design spec (`docs/bbq/2026-11-27-napkin-design-spec.md`); PR #1 merged;
+  ADR-002 to ADR-005 drafted and ratified; ADR-001 amended (glossary added, `docs/glossary.md`; hardware craft rules off).
 - 2026-11-27: prepared with project-prep; ADR-001 drafted with makeadr and ratified.
 
 ## How this file is kept

@@ -1,10 +1,12 @@
 ---
-status: proposed
-status-note: drafted 2026-11-27 from the user's answers; awaiting ratification
+status: accepted
+status-note: ratified by Chris Wells on 2026-11-27
+ratified-by: Chris Wells
+ratified-on: "2026-11-27"
 owner: Chris Wells
 kind: process
-built: not started
-proof: queued in this session, after ratification, for the Ground rules of `AGENTS.md`
+built: landed
+proof: "`AGENTS.md`"
 supersedes: nothing
 amends: ADR-001 §Decision (the Ground rules it set up in `AGENTS.md`)
 revisit-when: erelong reaches v1.0.0, the M5 public release
@@ -57,3 +59,5 @@ Drivers:
 
 - 2026-11-27: drafted by makeadr (light route) from Chris Wells's answers to bbq Q7 and Q12. ADR-001 gets a
   History note pointing here, in the same commit.
+- 2026-11-27: ratified by Chris Wells. Earlier values: `status: proposed`; `status-note: drafted 2026-11-27 from the user's answers; awaiting ratification`.
+- 2026-11-27: built in `AGENTS.md`. Earlier values: `built: not started`; `proof: queued in this session, after ratification, for the Ground rules of `AGENTS.md``.

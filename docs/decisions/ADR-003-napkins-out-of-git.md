@@ -1,6 +1,8 @@
 ---
-status: proposed
-status-note: drafted 2026-11-27 from the user's answers; awaiting ratification
+status: accepted
+status-note: ratified by Chris Wells on 2026-11-27
+ratified-by: Chris Wells
+ratified-on: "2026-11-27"
 owner: Chris Wells
 kind: process
 built: landed
@@ -21,14 +23,14 @@ private ones.
 
 - `tholent/erelong` is a public repository (measured 2026-11-27 with `gh api repos/tholent/erelong`:
   `private: false`).
-- The design spec v0.2 in `napkins/` describes the household, including one member's health, in its §2
+- The design spec v0.2 in `napkins/` describes the household in personal detail in its §2
   (lines 26–37).
 - Chris Wells chose to keep it out of git so that nothing private gets published (bbq Q6). The family interview
   records go to `napkins/interviews/`, never `docs/bbq/` (bbq Q11 and Q15).
 
 Drivers:
 - the repository is public
-- the spec holds household and health details
+- the spec holds personal household details
 - agents still need to cite the spec
 
 ## Alternatives
@@ -41,7 +43,7 @@ Drivers:
 
 ### Commit it as is
 - Good: the simplest, and every session can read it from git.
-- Bad: it publishes the household and health details.
+- Bad: it publishes the personal household details.
 
 ### Make the repository private
 - Good: everything can be committed freely now.
@@ -56,3 +58,5 @@ Drivers:
 
 - 2026-11-27: drafted by makeadr (light route) from Chris Wells's answer to bbq Q6. The `.gitignore` line
   landed in commit 604925b, the same session.
+- 2026-11-27: ratified by Chris Wells. Earlier values: `status: proposed`; `status-note: drafted 2026-11-27 from the user's answers; awaiting ratification`.
+- 2026-11-27: three lines in Context and Alternatives reworded to say less about the household, under this ADR's own rule; the meaning is unchanged. Earlier wording is in commit 8463644.
