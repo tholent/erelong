@@ -221,3 +221,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Napkins hold private household details; this repository is public (bbq Q6, 2026-11-27).
+napkins/
