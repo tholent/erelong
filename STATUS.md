@@ -6,21 +6,20 @@ The project's live state. Update it when work lands. Every claim cites at least 
 
 ## Now
 
-- Project prepared for agents with project-prep: the rules are in `AGENTS.md`, their lists in `docs/rules/`.
+- Project prepared for agents with project-prep: the rules are in `AGENTS.md`, their lists in `docs/rules/`; the setup is ruled in ADR-001 (`docs/decisions/ADR-001-pitmaster-conventions.md`).
 
 ## Next
 
-- Ratify ADR-001, how this project is set up for agents (`docs/decisions/ADR-001-pitmaster-conventions.md`).
+- Settle ADR-001's two open asks: the glossary, and which craft rules fit (`docs/decisions/ADR-001-pitmaster-conventions.md`).
 - Write the one-line description of what erelong is (`AGENTS.md`, `README.md`).
 
 ## Known debt
 
-- ADR-001 is proposed, not yet ratified (`docs/decisions/ADR-001-pitmaster-conventions.md`).
 - The project has no description or doctrine yet (`AGENTS.md`).
 
 ## Log
 
-- 2026-11-27: prepared with project-prep; ADR-001 drafted with makeadr.
+- 2026-11-27: prepared with project-prep; ADR-001 drafted with makeadr and ratified.
 
 ## How this file is kept
 

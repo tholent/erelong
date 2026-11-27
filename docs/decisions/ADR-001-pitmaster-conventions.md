@@ -1,6 +1,8 @@
 ---
-status: proposed
-status-note: drafted 2026-11-27 from the user's answers; awaiting ratification
+status: accepted
+status-note: ratified by Chris Wells on 2026-11-27
+ratified-by: Chris Wells
+ratified-on: "2026-11-27"
 owner: Chris Wells
 kind: process
 built: landed
@@ -49,3 +51,4 @@ repository. It does not decide anything about erelong's own code.
 ## History
 
 - 2026-11-27: drafted by makeadr (light route) from Chris Wells's answers, right after the project-prep setup.
+- 2026-11-27: ratified by Chris Wells. Earlier values: `status: proposed`; `status-note: drafted 2026-11-27 from the user's answers; awaiting ratification`.
